@@ -1,0 +1,30 @@
+
+  #Contacto{
+    margin-top: 2rem;
+    .form_Contacto{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-top: 1rem;
+  
+    }input, textarea{
+        background-color: #2a2f4c;
+        color: #cdcdff;
+        border: none;
+        border-radius: 20px;
+        padding: 1rem;
+        
+    }textarea{
+        height: 100px;
+        resize: none;
+    }
+    .Btn_Contacto{
+        background-color: #2a2f4c;
+        color:#cdcdff;
+        padding: 1rem;
+        border-radius: 20px;
+        border: solid 1px #cdcdff;
+        cursor: pointer;
+        margin-bottom: 3rem;
+    }
+  }

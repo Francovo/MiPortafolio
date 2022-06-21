@@ -1,0 +1,33 @@
+.Skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .ContainerSkill {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+      padding: 0;
+      justify-content: center;
+      .Skill {
+        cursor: pointer;
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 20px;
+        background-color: #2a2f4c;
+        box-shadow: rgb(0 0 0 / 16%) 0px 10px 36px 0px,
+          rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+        width: 70px;
+        height: 70px;
+        padding: 1rem;
+      }
+    }
+
+    .Skill:hover {
+      transform: translateY(-8px);
+      transition: transform 0.35s;
+    }
+  }
