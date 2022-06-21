@@ -21,9 +21,7 @@ body {
   margin: auto;
 }
 
-body{
-
-}::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb{
   background-color: #cdcdff;
   border-radius: 10px;
 }
