@@ -16,12 +16,13 @@ const Biografia = () => {
           <h2>Front End Developer</h2>
           <div className="About_Me">
             <h1 className="ME">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatum at, blanditiis voluptas ipsa quae dolores commodi.
-              Amet, quaerat odio perferendis veritatis voluptate, distinctio a
-              perspiciatis earum quam deserunt, sit nulla? In quos consectetur
-              illum fuga iste quasi soluta minima, maiores reiciendis incidunt
-              nisi voluptate.
+              Bienvenido a mi portafolio, hecha un vistazo y conoce acerca de
+              mi. Quien sabe, talvez podamos trabajar juntos.
+              <br />
+              Igualmente, me llamo Franco y soy desarrollador web, soy muy
+              proactivo y siempre quiero ser el mejor en lo que hago. <br />
+              <br />
+              Si estas de acuerdo con eso, nos llevaremos muy bien.
             </h1>
             <div className="Redes">
               <a
