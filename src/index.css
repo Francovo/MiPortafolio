@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -24,6 +29,7 @@ body {
 body::-webkit-scrollbar-thumb{
   background-color: #cdcdff;
   border-radius: 10px;
+
 }
 
 
