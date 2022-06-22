@@ -112,7 +112,7 @@ const Proyectos = () => {
               <div className="LinkProyectos">
                 <a
                   style={{ color: "#cdcdff" }}
-                  href="https://github.com/Francovo/Not_Spotify"
+                  href="https://github.com/Francovo/Prueba-TecnicaAcaGeek/tree/main"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -120,7 +120,7 @@ const Proyectos = () => {
                 </a>
                 <a
                   style={{ color: "#cdcdff" }}
-                  href="https://prueba-tecnica-body-tech.vercel.app"
+                  href="https://prueba-tecnica-aca-geek.vercel.app/RegistroData1"
                   target="_blank"
                   rel="noreferrer"
                 >
