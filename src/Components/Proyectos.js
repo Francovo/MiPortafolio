@@ -1,5 +1,5 @@
 import React from "react";
-import { SiJavascript, SiReact, SiChakraui, SiGithub } from "react-icons/si";
+import { SiJavascript, SiReact, SiChakraui, SiGithub, SiSass } from "react-icons/si";
 import { ImShare } from "react-icons/im";
 import "../styles/Proyectos.scss";
 
@@ -162,7 +162,7 @@ const Proyectos = () => {
                   <SiReact size={22} style={{}} />
                 </h2>
                 <h2>
-                  <SiChakraui
+                  <SiSass
                     size={25}
                     style={{
                       marginBottom: ".8rem",
