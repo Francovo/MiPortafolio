@@ -1,5 +1,13 @@
 import React from "react";
-import { SiJavascript, SiReact, SiChakraui, SiGithub, SiSass } from "react-icons/si";
+import {
+  SiJavascript,
+  SiReact,
+  SiChakraui,
+  SiGithub,
+  SiSass,
+  SiFirebase,
+  SiRedux,
+} from "react-icons/si";
 import { ImShare } from "react-icons/im";
 import "../styles/Proyectos.scss";
 
@@ -160,6 +168,22 @@ const Proyectos = () => {
                 </h2>
                 <h2>
                   <SiReact size={22} style={{}} />
+                </h2>
+                <h2>
+                  <SiFirebase
+                    size={25}
+                    style={{
+                      marginBottom: ".8rem",
+                    }}
+                  />
+                </h2>
+                <h2>
+                  <SiRedux
+                    size={25}
+                    style={{
+                      marginBottom: ".8rem",
+                    }}
+                  />
                 </h2>
                 <h2>
                   <SiSass

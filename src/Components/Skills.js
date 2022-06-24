@@ -8,6 +8,8 @@ import {
   SiChakraui,
   SiSass,
   SiGit,
+  SiFirebase,
+  SiRedux
 } from "react-icons/si";
 import "../styles/Skills.scss"
 
@@ -50,6 +52,24 @@ const Skills = () => {
           }}
         />
         ReactJs
+      </li>
+      <li className="Skill">
+        <SiFirebase
+          size={27}
+          style={{
+            marginBottom: ".6rem",
+          }}
+        />
+        Firebase
+      </li>
+      <li className="Skill">
+        <SiRedux
+          size={27}
+          style={{
+            marginBottom: ".6rem",
+          }}
+        />
+        Redux
       </li>
       <li className="Skill">
         <SiMaterialui
