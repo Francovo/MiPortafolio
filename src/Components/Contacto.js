@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import "../styles/Contacto.scss";
 import emailjs from "emailjs-com";
 
@@ -44,9 +44,9 @@ export const Contacto = () => {
           required
           maxLength="300"
         />
-        <a href="#modal" type="submit" className="Btn_Contacto">
+        <button type="submit" className="Btn_Contacto">
           Enviar
-        </a>
+        </button>
       </form>
     </div>
   );
