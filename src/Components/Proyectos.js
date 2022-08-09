@@ -192,6 +192,69 @@ const Proyectos = () => {
 						</div>
 					</div>
 				</div>
+
+				<div className="Proyecto">
+					<div style={{ pointerEvents: 'none' }}>
+						<img
+							src="https://res.cloudinary.com/aca-geek/image/upload/v1660012033/PORTAFOLIO/Captura_de_pantalla_2022-08-08_212630_seangd.png"
+							className="Image"
+							width="280px"
+							height="100px"
+							alt=""
+						/>
+						<div className="Info">
+							<h1 style={{ fontWeight: '500' }}>Marvel Comics</h1>
+							<h2 style={{ marginBottom: '4.5rem' }}>Podras acceder a datos acerca de Comics/Series/Personajes de marvel comics </h2>
+							<div className="Tech">
+								<h2>
+									{' '}
+									<SiJavascript
+										size={23}
+										style={{
+											marginBottom: '.8rem',
+											marginTop: '.1rem',
+										}}
+									/>
+								</h2>
+								<h2>
+									<SiReact size={22} style={{}} />
+								</h2>
+								<h2>
+									<SiFirebase
+										size={25}
+										style={{
+											marginBottom: '.8rem',
+										}}
+									/>
+								</h2>
+								<h2>
+									<SiRedux
+										size={25}
+										style={{
+											marginBottom: '.8rem',
+										}}
+									/>
+								</h2>
+								<h2>
+									<SiSass
+										size={25}
+										style={{
+											marginBottom: '.8rem',
+										}}
+									/>
+								</h2>
+							</div>
+							<div className="LinkProyectos">
+								<a style={{ color: '#cdcdff' }} href="https://github.com/Francovo/Marvel_Comics" target="_blank" rel="noreferrer">
+									<SiGithub size={23} />
+								</a>
+								<a style={{ color: '#cdcdff' }} href="https://marvel-comics-six.vercel.app" target="_blank" rel="noreferrer">
+									<ImShare size={23} style={{}} />
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
