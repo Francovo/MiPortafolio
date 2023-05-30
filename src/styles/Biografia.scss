@@ -5,12 +5,14 @@
 	flex-direction: column;
 	align-items: center;
 	font-size: 11px;
-	.Avatar {
-		margin-bottom: 1rem;
+	.Avatar img {
+		object-fit: cover;
 		width: 150px;
 		height: 160px;
 		border-radius: 100px;
-	}
+		object-position: top center;
+
+	  }
 	.About_Me {
 		text-align: center;
 	}

@@ -7,7 +7,9 @@ const Biografia = () => {
 		<>
 			<div className="ContainerAll">
 				<div className="Biografia" id="Biografia">
-					<img className="Avatar" alt="" src="../images/Me.webp" />
+					<div className="Avatar">
+					<img  alt="" src="https://res.cloudinary.com/aca-geek/image/upload/v1685411085/Me_vap8nz.jpg" />
+					</div>
 					<h1>Hola, Soy Franco Velasco</h1>
 					<h2>Front End Developer</h2>
 					<div className="About_Me">
